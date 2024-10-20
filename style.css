@@ -188,7 +188,7 @@ header section {
 /* BMI CALCULATOR */
 #bmi-calculator {
   display: flex;
-  padding: 30px 0;
+  padding: 60px 0;
   background: rgb(37, 37, 37);
 }
 #bmi-calculator h2 {
@@ -197,6 +197,7 @@ header section {
 #bmi-calculator > div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 table,
@@ -210,6 +211,32 @@ table * {
 }
 .bmi-form{
   width: 60%;
+}
+.bmi-form > form *, .bmi-form > form > div > input::placeholder {
+  color: #acacac;
+}
+.bmi-form > form > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 35px;
+  margin-bottom: 15px;
+}
+.bmi-form > form > div > input, .bmi-form > form > div > select, .bmi-form > form > select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #69696986;
+}
+.bmi-form form > button {
+  display: block;
+  margin: auto;
+  margin-top: 38px;
+  padding: 12px 60px;
+  color: white;
+  background: tomato;
+  border: none;
+  border-radius: 50px;
 }
 
 
