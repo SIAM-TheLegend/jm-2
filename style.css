@@ -185,7 +185,7 @@ header section {
   margin: 10px auto;
 }
 
-/* BMI CALCULATOR */
+/* BMI CALCULATOR------------------------------------------------- */
 #bmi-calculator {
   display: flex;
   padding: 60px 0;
@@ -209,10 +209,11 @@ table * {
 .bmi-chart {
   width: 40%;
 }
-.bmi-form{
+.bmi-form {
   width: 60%;
 }
-.bmi-form > form *, .bmi-form > form > div > input::placeholder {
+.bmi-form > form *,
+.bmi-form > form > div > input::placeholder {
   color: #acacac;
 }
 .bmi-form > form > div {
@@ -221,9 +222,11 @@ table * {
   gap: 15px 35px;
   margin-bottom: 15px;
 }
-.bmi-form > form > div > input, .bmi-form > form > div > select, .bmi-form > form > select {
+.bmi-form > form > div > input,
+.bmi-form > form > div > select,
+.bmi-form > form > select {
   width: 100%;
-  padding: 10px;
+  padding: 14px;
   border: none;
   border-radius: 6px;
   background: #69696986;
@@ -233,12 +236,46 @@ table * {
   margin: auto;
   margin-top: 38px;
   padding: 12px 60px;
+  font-size: larger;
   color: white;
   background: tomato;
   border: none;
   border-radius: 50px;
 }
 
+/* Unique Features----------------------------------------------------------------------- */
+#unique-features {
+  text-align: center;
+  padding: 50px;
+  background: rgb(49, 49, 49);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#unique-features > img {
+  display: block;
+  width: 45%;
+  border-radius: 25px;
+}
+#unique-features > div {
+  width: 50%;
+  margin: 15px auto;
+  text-align: center;
+}
+#unique-features > div > h3 {
+  margin: 30px auto;
+  text-align: left;
+}
+#unique-features > div > ul {
+  padding-left: 40px;
+  margin-top: 20px;
+  list-style-type: disc;
+  color: slategrey;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* #unique-features {} */
 
 
 
