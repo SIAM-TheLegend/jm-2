@@ -312,7 +312,18 @@ table * {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-/* #unique-features {} */
+@media (max-width: 576px) {
+  #unique-features {
+    flex-direction: column;
+  }
+  #unique-features > img, #unique-features > div {
+    width: 100%;
+  }
+  #unique-features > div > ul {
+    gap: 30px;
+    padding: 0;
+  }
+}
 
 
 
