@@ -225,6 +225,12 @@ header section {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 576px) {
+  #bmi-calculator {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
 table,
 table * {
   border: 1px solid slategray;
@@ -236,6 +242,12 @@ table * {
 }
 .bmi-form {
   width: 60%;
+}
+@media (max-width: 576px) {
+  .bmi-chart, .bmi-form {
+    width: 70%;
+    margin: auto;
+  }
 }
 .bmi-form > form *,
 .bmi-form > form > div > input::placeholder {
