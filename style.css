@@ -120,12 +120,24 @@ header section {
 #header-description {
   width: 40%;
 }
+@media (max-width: 572px) {
+  #header-description {
+    width: 95%;
+  }
+}
 #header-img {
   position: relative;
 }
 #header-img > img {
   height: 100%;
   position: relative;
+}
+@media (max-width: 572px) {
+  #header-img > img {
+    display: block;
+    height: 100%;
+    margin: 20px auto;
+  }
 }
 .img-div {
   padding: 16px 24px;
@@ -147,9 +159,22 @@ header section {
 }
 .ball {
   background: tomato;
-  border-radius: 50%;
+  border-radius: 50px;
   padding: 12px;
-  aspect-ratio: 1 / 1;
+}
+@media (max-width: 572px) {
+  .img-div-1 {
+    width: fit-content;
+    right: 0;
+  }
+  .img-div-2 {
+    width: fit-content;
+    left: 0;
+  }
+  .ball {
+    width: fit-content;
+    padding: 12px;
+  }
 }
 
 /* -------------------------------------------------- */
