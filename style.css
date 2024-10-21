@@ -51,7 +51,7 @@ nav > div > p:nth-child(1) {
 nav > svg {
   display: none;
 }
-@media (max-width: 572px) {
+@media (max-width: 576px) {
   header {
     max-height: max-content;
   }
@@ -120,7 +120,7 @@ header section {
 #header-description {
   width: 40%;
 }
-@media (max-width: 572px) {
+@media (max-width: 576px) {
   #header-description {
     width: 95%;
   }
@@ -132,7 +132,7 @@ header section {
   height: 100%;
   position: relative;
 }
-@media (max-width: 572px) {
+@media (max-width: 576px) {
   #header-img > img {
     display: block;
     height: 100%;
@@ -162,7 +162,7 @@ header section {
   border-radius: 50px;
   padding: 12px;
 }
-@media (max-width: 572px) {
+@media (max-width: 576px) {
   .img-div-1 {
     width: fit-content;
     right: 0;
